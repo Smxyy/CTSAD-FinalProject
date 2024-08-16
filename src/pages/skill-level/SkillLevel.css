@@ -1,0 +1,15 @@
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .exclude-1024 {
+    width: 90% !important;
+  }
+  .exclude-1024-vocabulary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px){
+  .exclude-1024-vocabulary {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid : 0px;
+  }
+}
+
