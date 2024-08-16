@@ -1,0 +1,16 @@
+@media (min-width: 1024px) and (max-width: 1024px) {
+  .exclude {
+    top: 50px !important;	
+  }
+  .fontSize{
+    font-size: 20px !important;
+  }
+  .img-new{
+    width: 300px !important;
+    height: 200px !important;
+  }
+  .font-new
+  {
+    font-size: 20px !important;
+  }
+}

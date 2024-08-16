@@ -1,0 +1,11 @@
+@media (min-width: 1024px) and (max-width: 1110px) {
+  .style-navbar {
+    display: none !important;
+  }
+  .style-navbar2 {
+    display: flex !important;
+  }
+  .style-navbar3 {
+    display: block !important;
+  }
+}

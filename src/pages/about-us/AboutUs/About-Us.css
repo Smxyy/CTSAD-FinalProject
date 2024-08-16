@@ -1,0 +1,25 @@
+
+.swiper-button-prev
+{
+    display: none !important;
+}
+.swiper-button-next
+{
+    display: none !important;
+}
+.swiper-slide-active{
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes hand-bounce {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+}
+.animate-hand-point {
+    animation: hand-bounce 1s infinite;
+}

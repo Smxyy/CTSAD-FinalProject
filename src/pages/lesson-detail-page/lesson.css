@@ -1,0 +1,32 @@
+.side
+{
+  z-index: -10;
+}
+.sucess-new{
+  background-image: url("../../assets/img/congra.gif");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-color: rgba(0,0,0,0.5)
+}
+.faild-new
+{
+  background-image: url("../../assets/img/rain1.gif");
+  background-color: black;
+  background-color: rgba(0,0,0,0.5)
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+.audio-button {
+  cursor: pointer;
+}
+.new
+{
+  top: 6.5rem !important;
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .excludeNew{
+    position: sticky !important;
+  }
+}
